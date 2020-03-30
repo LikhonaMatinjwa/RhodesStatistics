@@ -1,12 +1,12 @@
-Package: bristolthesis
+Package: rhodesthesis
 Type: Package
-Title: An updated thesisdown package for the University of Bristol
+Title: An updated thesisdown package for the Rhodes University
 Version: 0.0.1
-Authors@R: person("Matthew", "Lee", email = "matthew.lee@bristol.ac.uk", role = "cre")
-Maintainer: Matthew Lee <matthew.lee@bristol.ac.uk>
+Authors@R: person("Fabio", "Correa", email = "f.correa@ru.ac.za", role = "cre")
+Maintainer: Fabio Mathias Correa <f.correa@ru.ac.za>
 Description: 
-    bristolthesis is an adaptation of thesisdown to produce a thesis that can be used at the University of Bristol.
-    The thesisdown package uses bookdown and LaTeX and word templates from Reed College. We use this as a basis for bristolthesis.        
+    rhodesthesis is an adaptation of thesisdown to produce a thesis that can be used at the Rhodes University.
+    The thesisdown package uses bookdown and LaTeX and word templates from Reed College. We use this as a basis for rhodesthesis.        
 License: MIT
 Encoding: UTF-8
 LazyData: true

@@ -1,26 +1,24 @@
-# bristolthesis
+# rhodesthesis
 
-This is a modified version of [`thesisdown`](https://github.com/ismayc/thesisdown) to be compatible with the [University of Bristol reserach degree regulations](http://www.bristol.ac.uk/directory/exams/research-degree/your-dissertation/). The updates are mainly around the ordering of sections and spacing/font sizing.
-
-![](bristolthesis_output.png)
+This is a modified version of [`thesisdown`](https://github.com/ismayc/thesisdown) to be compatible with the [Rhodes University reserach degree regulations]. The updates are mainly around the ordering of sections and spacing/font sizing.
 
 
 The PDF and HTML (gitbook) versions work pretty well. The word version is hit or miss and really should only be used if you want to get comments/feedback from supervisors etc..
 
-You should follow the [`thesisdown`](https://github.com/ismayc/thesisdown) guide and when it comes to it you should then install `bristolthesis`:
+You should follow the [`thesisdown`](https://github.com/ismayc/thesisdown) guide and when it comes to it you should then install `rhodesthesis`:
 
 ```{r}
 # Install devtools
 install.packages("devtools")
 library(devtools)
 
-# Install bristolthesis directly from GitHub
-devtools::install_github("mattlee821/bristolthesis")
-library(bristolthesis)
+# Install rhodesthesis directly from GitHub
+devtools::install_github("fmcron/RhodesStatistics")
+library(rhodesthesis)
 ```
 
-In `RStudio` (you may need to restart it first) go to new file, R Markdown, from template, bristolthesis. You *must* give it the name **index** or it will not work. `knit` the `index.Rmd` file and it will pull the guide up.
-![](bristolthesis.png)
+In `RStudio` (you may need to restart it first) go to new file, R Markdown, from template, rhodesthesis. You *must* give it the name **index** or it will not work. `knit` the `index.Rmd` file and it will pull the guide up.
+![](rhodesthesis.png)
 
 
 ## Important stuff 
