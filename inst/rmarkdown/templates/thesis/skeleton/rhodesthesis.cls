@@ -1,12 +1,10 @@
 %
-% University of Bristol thesis templats
-% Date: 08/11/2019
-% Author: Matthew Lee, matthew.lee@bristol.ac.uk
+% Rhodes University thesis templats
+% Date: 31/03/2020
+% Author: Fabio Mathias Correa, f.correa@ru.ac.za
 %
 % This template is adapted from thesidown and similar university specific adaptations
 %
-%
-% Bristol Uni thesis regulations: http://www.bris.ac.uk/esu/pg/pgrcop11-12topic.pdf#page=49
 % Format of dissertations for research degrees:
 %
 % Preliminary pages:
@@ -14,14 +12,13 @@
 % 1. Title Page
 % 2. Abstract
 % 3. Dedication and Acknowledgements
-% 4. Author's Declaration
-% 5. Table of Contents
+% 4. Table of Contents
 %
 % 1. Title Page
 % a) At the top should be the title (if necessary the sub-title and volume number). If thesis in another language give the original language title followed by the English language title
 % b) The full name of the author should be in the centre of the page
-% c) At the bottom centre should be the words "“A dissertation submitted to the University of Bristol in accordance with the requirements for award of the degree of...in the Faculty of...”
-% d) the name of the school and month and year of submission should follow below this declaration
+% c) At the bottom centre should be the words "“A dissertation submitted to the Rhodes University in accordance with the requirements for award of the degree of...in the Faculty of...”
+% d) the name of the school and month and year of submission
 % e) the word count (text) should be entered at the bottom right of the page
 %
 % 2. Abstract
@@ -33,11 +30,7 @@
 % 3. Dedication and Acknowledgments
 % The uni provides no information on the content of this section
 %
-% 4. Author's Declaration
-% I declare that the work in this dissertation was carried out in accordance with the requirements of the University's Regulations and Code of Practice for Research Degree Programmes and that it has not been submitted for any other academic award. Except where indicated by specific reference in the text, the work is the candidate's own work. Work done in collaboration with, or with the assistance of, others, is indicated as such. Any views expressed in the dissertation are those of the author.
-% SIGNED: ............................................................. DATE:..........................
-%
-% 5. Table of Contents
+% 4. Table of Contents
 % a) must list (with page numebrs):
 %   (i) all chapters
 %   (ii) all sections
@@ -47,7 +40,7 @@
 %   (vi) list of abbreviations
 %   (vii) appendices
 %
-% 6. Table of Tables and Table of Figures
+% 5. Table of Tables and Table of Figures
 % a) this should follow the ToC
 % b) must inclde the page numbers
 %
@@ -73,7 +66,7 @@
 
 %%% Probably best to leave this bit as is
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{bristolthesis}[]
+\ProvidesClass{rhodesthesis}[]
 \DeclareOption*{\PassOptionsToClass{\CurrentOption}{book}}
 \ProcessOptions\relax
 \LoadClass{book}
@@ -278,7 +271,7 @@
     \@university
     \vfil
     \bigskip
-    A dissertation submitted to the University of Bristol in accordance with the requirements for award of the degree of \@degree \ in the Faculty of \@faculty \\
+    A dissertation submitted to the Rhodes University in accordance with the requirements for award of the degree of \@degree \ in the Faculty of \@faculty \\
     \vfil
     \bigskip
     {\fontsize{12}{14}\selectfont \lineskip .5em
@@ -314,15 +307,15 @@
 }{\clearpage \if@restonecol\twocolumn\fi}%
 
 %% Declaration
-\newenvironment{declaration}{%
-  \if@twocolumn
-    \@restonecoltrue\onecolumn
-  \else
-    \@restonecolfalse
-  \fi
-  \chapter*{Declaration}
-  \fontsize{12}{14}\selectfont
-}{\clearpage \if@restonecol\twocolumn\fi}%
+%%\newenvironment{declaration}{%
+%%  \if@twocolumn
+%%   \@restonecoltrue\onecolumn
+%%  \else
+%%    \@restonecolfalse
+%%  \fi
+%%  \chapter*{Declaration}
+%%  \fontsize{12}{14}\selectfont
+%%}{\clearpage \if@restonecol\twocolumn\fi}%
 
 %% Abbreviations/accronyms
 \newenvironment{abbreviations}{%
@@ -340,5 +333,5 @@
 \renewcommand{\title}[1]{\def\@title{#1}}
 \newcommand{\Abstract}[1]{\def\@Abstract{#1}}
 \newcommand{\Acknowledgements}[1]{\def\@Acknowledgements{#1}}
-\newcommand{\Declaration}[1]{\def\@Declaration{#1}}
+%\newcommand{\Declaration}[1]{\def\@Declaration{#1}}
 \newcommand{\Abbreviations}[1]{\def\@Abbreviations{#1}}

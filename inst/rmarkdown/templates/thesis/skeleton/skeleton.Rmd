@@ -1,13 +1,13 @@
 ---
-author: 'Matthew Lee'
+author: 'Fabio Mathias Correa'
 date: 'July 2021' # Month and year of submission
-title: "I made this template based on thesisdown to comply with the University of Bristol regulations"
-university: "University of Bristol"
-faculty: "Health Sciences"
-school: "Bristol Medical School"
-group: "MRC Integrative Epidemiologu Unit"
-degree: "Population Health Sciences"
-logo: figure/index/UoBcrest.pdf # logo will only show on PDF
+title: "I made this template based on thesisdown to comply with the Rhodes University regulations"
+university: "Rhodes University"
+faculty: "Science"
+school: "Statistics"
+#group: "MRC Integrative Epidemiologu Unit"
+degree: "Mathematical Statistics"
+logo: figure/index/RhodesUni.pdf # logo will only show on PDF
 bibliography: bib/thesis.bib # location of your bibliography 
 csl: csl/apa.csl # location of your referencing style 
 knit: "bookdown::render_book" # doesnt need changing 

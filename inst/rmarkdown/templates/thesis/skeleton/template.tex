@@ -55,7 +55,7 @@ $endif$
 \university{$university$}
 \faculty{$faculty$}
 \school{$school$}
-\group{$group$}
+%%\group{$group$}
 \wordcount{$wordcount$}
 \degree{$degree$}
 \logo{$logo$}
@@ -89,9 +89,9 @@ $endif$
 $acknowledgements$
 }
 
-\Declaration{
-$declaration$
-}
+%%\Declaration{
+%%$declaration$
+%%}
 
 \Abstract{
 $abstract$
@@ -125,11 +125,11 @@ $if(acknowledgements)$
     $acknowledgements$
   \end{acknowledgements}
 $endif$
-$if(declaration)$
-  \begin{declaration}
-    $declaration$
-  \end{declaration}
-$endif$
+%%$if(declaration)$
+%%  \begin{declaration}
+%%    $declaration$
+%%  \end{declaration}
+%%$endif$
 $if(toc)$
   \hypersetup{linkcolor=$if(toccolor)$$toccolor$$else$black$endif$}
   \setcounter{tocdepth}{$toc-depth$}
