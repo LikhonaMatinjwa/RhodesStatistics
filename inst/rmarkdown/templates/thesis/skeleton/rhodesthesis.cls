@@ -278,7 +278,7 @@
     \begin{tabular}[t]{c}%
     \end{tabular}\par}
     \vskip 1em
-    {\fontsize{12}{14}\selectfont \@school,\ \@date,\  Word Count: \@wordcount \par}
+    {\fontsize{12}{14}\selectfont,\ \@date}
   \end{center}\par
   \end{titlepage}
   }
