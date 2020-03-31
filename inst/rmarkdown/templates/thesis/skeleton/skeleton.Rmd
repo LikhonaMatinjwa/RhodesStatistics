@@ -1,10 +1,10 @@
 ---
 author: 'Fabio Mathias Correa'
 date: 'July 2021' # Month and year of submission
-title: "I made this template based on thesisdown to comply with the Rhodes University regulations"
+title: "My thesis template"
 university: "Rhodes University"
 faculty: "Science"
-school: "Statistics"
+school: "Department of Statistics"
 degree: "Mathematical Statistics"
 logo: figure/index/RhodesUni.pdf # logo will only show on PDF
 bibliography: bib/thesis.bib # location of your bibliography 
