@@ -223,7 +223,7 @@
 \def\university#1{\gdef \@university{#1}}
 \def\faculty#1{\gdef \@faculty{#1}}
 \def\school#1{\gdef \@school{#1}}
-\def\group#1{\gdef \@group{#1}}
+%%\def\group#1{\gdef \@group{#1}}
 \def\wordcount#1{\gdef \@wordcount{#1}}
 \def\logo#1{\gdef \@logo{#1}}
 \def\degree#1{\gdef \@degree{#1}}
@@ -265,7 +265,7 @@
     \centerline{\hbox to \wd0 {\hbox{}\hrulefill\hbox{}}}
     \vfil
     \@author \\
-    \@group \\
+%%    \@group \\
     \@school \\
     Faculty of \@faculty \\
     \@university
