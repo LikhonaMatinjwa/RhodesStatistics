@@ -13,12 +13,12 @@ install.packages("devtools")
 library(devtools)
 
 # Install rhodesthesis directly from GitHub
-devtools::install_github("fmcron/RhodesStatistics")
+devtools::install_github("fmcron/RhodesStatistics", ref="RhodesStatistics")
 library(rhodesthesis)
 ```
 
 In `RStudio` (you may need to restart it first) go to new file, R Markdown, from template, rhodesthesis. You *must* give it the name **index** or it will not work. `knit` the `index.Rmd` file and it will pull the guide up.
-![](rhodesthesis.png)
+![](rhodesscreen.png)
 
 
 ## Important stuff 

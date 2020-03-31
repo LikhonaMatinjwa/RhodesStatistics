@@ -5,7 +5,6 @@ title: "I made this template based on thesisdown to comply with the Rhodes Unive
 university: "Rhodes University"
 faculty: "Science"
 school: "Statistics"
-#group: "MRC Integrative Epidemiologu Unit"
 degree: "Mathematical Statistics"
 logo: figure/index/RhodesUni.pdf # logo will only show on PDF
 bibliography: bib/thesis.bib # location of your bibliography 
@@ -32,8 +31,6 @@ abstract: |
   `r if(knitr:::is_latex_output()) paste(readLines("00-abstract.Rmd"), collapse = '\n  ')`
 acknowledgements: |
   `r if(knitr:::is_latex_output()) paste(readLines("00-acknowledgements.Rmd"), collapse = '\n  ')`
-declaration: |
-  `r if(knitr:::is_latex_output()) paste(readLines("00-declaration.Rmd"), collapse = '\n  ')`
 abbreviations: |
   `r if(knitr:::is_latex_output()) paste(readLines("00-abbreviations.Rmd"), collapse = '\n  ')`
 ---
