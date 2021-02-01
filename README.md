@@ -13,7 +13,7 @@ install.packages("devtools")
 library(devtools)
 
 # Install rhodesthesis directly from GitHub
-devtools::install_github("fmcron/RhodesStatistics", ref="RhodesStatistics")
+devtools::install_github("fmcron/RhodesStatistics")
 library(rhodesthesis)
 ```
 
