@@ -134,11 +134,13 @@ $if(acknowledgements)$
     $acknowledgements$
   \end{acknowledgements}
 $endif$
-%%$if(declaration)$
-%%  \begin{declaration}
-%%    $declaration$
-%%  \end{declaration}
-%%$endif$
+
+$if(declaration)$
+  \begin{declaration}
+    $declaration$
+  \end{declaration}
+$endif$
+
 $if(toc)$
   \hypersetup{linkcolor=$if(toccolor)$$toccolor$$else$black$endif$}
   \setcounter{tocdepth}{$toc-depth$}
