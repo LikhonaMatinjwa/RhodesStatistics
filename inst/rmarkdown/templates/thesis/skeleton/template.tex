@@ -33,6 +33,16 @@
 \usepackage{times} % other fonts are available like times, bookman, charter, palatino
 \usepackage{caption}
 
+% CSL References
+\newlength{\cslhangindent}
+\setlength{\cslhangindent}{1.5em}
+\newenvironment{CSLReferences}%
+{\setlength{\parindent}{0pt}%
+\everypar{\setlength{\hangindent}{\cslhangindent}}\ignorespaces}%
+{\par}
+
+
+
 % Use ref for internal links
 \renewcommand{\hyperref}[2][???]{\autoref{#1}}
 \def\chapterautorefname{Chapter}
