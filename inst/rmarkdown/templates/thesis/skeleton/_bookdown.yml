@@ -11,5 +11,5 @@ rmd_files: ["index.Rmd",
             "99-references.Rmd"]
 
 download: [["thesis.pdf", "PDF"],
-          ["thesis.epub", "EPUB"]
+          ["thesis.epub", "EPUB"]]
 
