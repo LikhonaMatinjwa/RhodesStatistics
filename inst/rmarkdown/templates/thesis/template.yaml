@@ -1,2 +1,2 @@
-name:  Thesis
-description: A template for creating a PhD or masters thesis at Rhodes University using Rmarkdown based on the Reed College LaTeX and Word templates and the R bookdown package.
+name:  Rhodes-thesis
+description: A template for creating a PhD, masters or honours thesis at Rhodes University using Rmarkdown based on the Reed College LaTeX and Word templates and the R bookdown package.
