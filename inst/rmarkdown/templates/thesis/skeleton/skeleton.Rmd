@@ -52,6 +52,9 @@ options(tinytex.verbose = TRUE)
 if(!require(flextable))
   devtools::install_github("davidgohel/flextable")
 library(flextable)
+library(dplyr)
+library(ggplot2)
+library(knitr)
 
 # this will allow us to make word documents with relatively ok tables
 doc.type <- knitr::opts_knit$get('rmarkdown.pandoc.to')
