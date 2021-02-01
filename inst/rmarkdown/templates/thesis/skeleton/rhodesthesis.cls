@@ -306,16 +306,16 @@
   \fontsize{12}{14}\selectfont
 }{\clearpage \if@restonecol\twocolumn\fi}%
 
-%% Declaration
-%%\newenvironment{declaration}{%
-%%  \if@twocolumn
-%%   \@restonecoltrue\onecolumn
-%%  \else
-%%    \@restonecolfalse
-%%  \fi
-%%  \chapter*{Declaration}
-%%  \fontsize{12}{14}\selectfont
-%%}{\clearpage \if@restonecol\twocolumn\fi}%
+%%Declaration
+\newenvironment{declaration}{%
+  \if@twocolumn
+   \@restonecoltrue\onecolumn
+  \else
+    \@restonecolfalse
+  \fi
+  \chapter*{Declaration}
+  \fontsize{12}{14}\selectfont
+}{\clearpage \if@restonecol\twocolumn\fi}%
 
 %% Abbreviations/accronyms
 \newenvironment{abbreviations}{%
@@ -333,5 +333,5 @@
 \renewcommand{\title}[1]{\def\@title{#1}}
 \newcommand{\Abstract}[1]{\def\@Abstract{#1}}
 \newcommand{\Acknowledgements}[1]{\def\@Acknowledgements{#1}}
-%\newcommand{\Declaration}[1]{\def\@Declaration{#1}}
+\newcommand{\Declaration}[1]{\def\@Declaration{#1}}
 \newcommand{\Abbreviations}[1]{\def\@Abbreviations{#1}}
