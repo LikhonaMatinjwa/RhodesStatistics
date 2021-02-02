@@ -233,7 +233,7 @@
     \vfil
     \centerline{\hbox to \wd0 {\hbox{}\hrulefill\hbox{}}}
     \vfil
-    {\fontfamily{pbk}\fontsize{16}{16} \@author} \\
+    {\fontfamily{pbk}\fontsize{16}{16}\selectfont \@author} \\
     \@university \\
     Faculty of \@faculty \\
     \@school
