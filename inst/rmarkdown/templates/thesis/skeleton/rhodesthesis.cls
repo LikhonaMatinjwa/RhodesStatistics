@@ -262,7 +262,7 @@
   \fi
   \chapter*{Abstract}
   \fontsize{12}{14}\selectfont
-}{\clearpage \if@restonecol\twocolumn\fi}%
+}{\if@restonecol\twocolumn\fi}%
 
 %% Acknowledgments
 \newenvironment{acknowledgements}{%
@@ -273,7 +273,7 @@
   \fi
   \chapter*{Acknowledgements}
   \fontsize{12}{14}\selectfont
-}{\clearpage \if@restonecol\twocolumn\fi}%
+}{\if@restonecol\twocolumn\fi}%
 
 %%Declaration
 \newenvironment{declaration}{%
@@ -284,7 +284,7 @@
   \fi
   \chapter*{Declaration}
   \fontsize{12}{14}\selectfont
-}{\clearpage \if@restonecol\twocolumn\fi}%
+}{\if@restonecol\twocolumn\fi}%
 
 %% Abbreviations/accronyms
 \newenvironment{abbreviations}{%
@@ -295,7 +295,7 @@
   \fi
   \chapter*{Abbreviations}
   \fontsize{12}{14}\selectfont
-}{\clearpage \if@restonecol\twocolumn\fi}%
+}{\if@restonecol\twocolumn\fi}%
 
 
 %%% Other things
