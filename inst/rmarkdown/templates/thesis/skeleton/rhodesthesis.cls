@@ -74,7 +74,6 @@
 \RequirePackage{fancyvrb}
 \usepackage{ifxetex,ifluatex}
 \usepackage{fixltx2e} % provides \textsubscript
-\usepackage[l.nf]{coelacanth} % Title font
 \ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
   \usepackage[T1]{fontenc}
   \usepackage[utf8]{inputenc}
@@ -230,7 +229,7 @@
     \setcounter{page}{1}
     \includegraphics[scale=0.2] \@logo \\
     \vspace{1.5cm}
-    {\fontfamily{pbk} \fontsize{20}{20}\selectfont \@title}
+    {\fontfamily{pbk}\fontsize{20}{20}\selectfont \@title}
     \vfil
     \centerline{\hbox to \wd0 {\hbox{}\hrulefill\hbox{}}}
     \vfil
