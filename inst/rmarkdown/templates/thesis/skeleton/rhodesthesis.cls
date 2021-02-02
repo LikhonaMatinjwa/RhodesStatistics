@@ -235,7 +235,7 @@
     \vfil
     {\fontfamily{pbk}\fontsize{18}{18}\selectfont \@author} \\
     {\fontfamily{pbk}\fontsize{14}{14}\selectfont \@university} \\
-    {\fontfaily{pbk}\fontsize{14}{14}\selectfont Faculty of \@faculty} \\
+    {\fontfamily{pbk}\fontsize{14}{14}\selectfont Faculty of \@faculty} \\
     {\fontfmaily{pbk}\fontsize{14}{14}\selectfont \@school}
     \vfil
     \bigskip
