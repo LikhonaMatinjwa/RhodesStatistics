@@ -260,7 +260,9 @@
   \begin{center}
     \setcounter{page}{1}
     \includegraphics[scale=0.2] \@logo \\
-    {\fontsize{18}{18}\selectfont \@title}
+    \\
+    \\
+    {\fontsize{20}{20}\selectfont \@title}
     \vfil
     \centerline{\hbox to \wd0 {\hbox{}\hrulefill\hbox{}}}
     \vfil
