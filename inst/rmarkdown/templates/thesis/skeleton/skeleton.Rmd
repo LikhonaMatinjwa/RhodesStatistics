@@ -1,7 +1,7 @@
 ---
 author: 'Fabio Mathias Correa'
 date: 'July 2021' # Month and year of submission
-title: "My thesis template"
+title: "My template"
 university: "Rhodes University"
 faculty: "Science"
 school: "Department of Statistics"
@@ -29,6 +29,8 @@ output:
 #  thesisdown::thesis_epub: default
 abstract: |
   `r if(knitr:::is_latex_output()) paste(readLines("00-abstract.Rmd"), collapse = '\n  ')`
+declaration: |
+  `r if(knitr:::is_latex_output()) paste(readLines("00-declaration.Rmd"), collapse = '\n  ')`
 acknowledgements: |
   `r if(knitr:::is_latex_output()) paste(readLines("00-acknowledgements.Rmd"), collapse = '\n  ')`
 abbreviations: |

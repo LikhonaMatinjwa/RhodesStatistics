@@ -260,6 +260,7 @@
   \begin{center}
     \setcounter{page}{1}
     \includegraphics[scale=0.2] \@logo \\
+    \bigskip
     {\fontsize{20}{20}\selectfont \@title}
     \vfil
     \centerline{\hbox to \wd0 {\hbox{}\hrulefill\hbox{}}}
