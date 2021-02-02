@@ -1,7 +1,7 @@
 ---
 author: 'Fabio Mathias Correa'
 date: 'July 2021' # Month and year of submission
-title: "My template"
+title: "My beautiful thesis title"
 university: "Rhodes University"
 faculty: "Science"
 school: "Department of Statistics"

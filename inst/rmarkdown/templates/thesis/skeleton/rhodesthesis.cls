@@ -229,7 +229,7 @@
     \setcounter{page}{1}
     \includegraphics[scale=0.2] \@logo \\
     \vspace{1.5cm}
-    {\fontfamily{pbk}\fontsize{20}{20}\selectfont \@title}
+    {\fontfamily{pbk}\fontsize{24}{24}\selectfont \@title}
     \vfil
     \centerline{\hbox to \wd0 {\hbox{}\hrulefill\hbox{}}}
     \vfil
