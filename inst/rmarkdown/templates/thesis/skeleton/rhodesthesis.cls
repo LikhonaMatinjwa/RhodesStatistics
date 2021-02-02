@@ -236,7 +236,7 @@
     {\fontfamily{pbk}\fontsize{18}{18}\selectfont \@author} \\
     {\fontfamily{pbk}\fontsize{14}{14}\selectfont \@university} \\
     {\fontfamily{pbk}\fontsize{14}{14}\selectfont Faculty of \@faculty} \\
-    {\fontfmaily{pbk}\fontsize{14}{14}\selectfont \@school}
+    {\fontfamily{pbk}\fontsize{14}{14}\selectfont \@school}
     \vfil
     \bigskip
     A dissertation submitted to the Rhodes University in accordance with the requirements for award of the degree of \@degree \ in the Faculty of \@faculty \\
