@@ -234,7 +234,7 @@
     \centerline{\hbox to \wd0 {\hbox{}\hrulefill\hbox{}}}
     \vfil
     {\fontfamily{pbk}\fontsize{18}{18}\selectfont \@author} \\
-    \vspace{1cm}
+    \vspace{0.5cm}
     {\fontfamily{pbk}\fontsize{14}{14}\selectfont \@university} \\
     {\fontfamily{pbk}\fontsize{14}{14}\selectfont Faculty of \@faculty} \\
     {\fontfamily{pbk}\fontsize{14}{14}\selectfont \@school}
