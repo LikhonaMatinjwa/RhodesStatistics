@@ -1,5 +1,5 @@
 ---
-author: 'Fabio Mathias Correa'
+author: 'Full name'
 date: 'July 2021' # Month and year of submission
 title: "My beautiful thesis title"
 university: "Rhodes University"
@@ -27,6 +27,8 @@ output:
 #  thesisdown::thesis_gitbook: default
 #  thesisdown::thesis_word: default
 #  thesisdown::thesis_epub: default
+declaration: |
+  `r if(knitr:::is_latex_output()) paste(readLines("00-declaration.Rmd"), collapse = '\n  ')`
 abstract: |
   `r if(knitr:::is_latex_output()) paste(readLines("00-abstract.Rmd"), collapse = '\n  ')`
 acknowledgements: |
