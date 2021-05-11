@@ -23,6 +23,14 @@ In `RStudio` (you may need to restart it first) go to new file, R Markdown, from
 
 ## Important stuff 
 
+### Compiling multiple files
+
+The index.Rmd file does not define which files are to be compiled. To define which files should be compiled, open the directory where the template was saved and change the _bookdown.yml in the rmd_files section write the name of the files to be compiled. After defining which files are to be compiled, you can compile your thesis in RStudio.
+
+![](diretorio.png)
+
+![](arquivos-compile.png)
+
 ### Set-up
 I put all of my figures that I wanted to use in the `figure/` folder and then within individual chapter folders. I did a similar thing with any data I wanted to use by using the `data/` folder and then using chapters within that.
 
