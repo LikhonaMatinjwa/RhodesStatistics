@@ -17,7 +17,7 @@
 % 1. Title Page
 % a) At the top should be the title (if necessary the sub-title and volume number). If thesis in another language give the original language title followed by the English language title
 % b) The full name of the author should be in the centre of the page
-% c) At the bottom centre should be the words "“A dissertation submitted to the Rhodes University in accordance with the requirements for award of the degree of...in the Faculty of...”
+% c) At the bottom centre should be the words "“A project submitted to the Rhodes University in accordance with the requirements for the degree of...in the Faculty of...”
 % d) the name of the school and month and year of submission
 % e) the word count (text) should be entered at the bottom right of the page
 %
